@@ -1,0 +1,77 @@
+# Demo Video Link
+
+**Project:** RAG Chatbot using ChromaDB + Python
+**Team Size:** 2 Students
+**Duration:** 3 minutes
+
+---
+
+## 📹 Demo Video URL
+[To be added after recording]
+
+---
+
+## 🎬 Video Recording Guide
+
+### Recommended Platforms:
+1. **YouTube** (Unlisted link)
+2. **Loom** (Free screen recording)
+3. **Google Drive** (Video file sharing)
+4. **Vimeo** (Free tier)
+
+### Video Structure (3 minutes):
+
+**0:00-0:30 - Introduction**
+- Project title and objectives
+- Technologies used: ChromaDB, Google Gemini, Streamlit
+- Team members
+
+**0:30-1:30 - Document Upload Demo**
+- Show document upload interface
+- Upload sample PDF/TXT/DOCX files
+- Display processing confirmation
+- Show total chunks created in ChromaDB
+
+**1:30-2:30 - Q&A Demonstration**
+- Ask 3-4 questions covering different topics:
+  1. Machine Learning question
+  2. Deep Learning question
+  3. Python Programming question
+  4. Data Science question
+- Show confidence scores for each answer
+- Demonstrate source attribution
+
+**2:30-3:00 - Features Recap**
+- Highlight key features:
+  - 1,734 chunks from 9 documents
+  - 85% retrieval accuracy
+  - 2.7s average response time
+  - Color-coded confidence scoring
+  - Multiple deployment options
+- Conclusion and thank you
+
+---
+
+## 📝 Recording Tips:
+1. Test audio quality before recording
+2. Use full-screen mode for Streamlit app
+3. Prepare questions in advance
+4. Show both successful queries and edge cases
+5. Keep it concise and focused
+6. Add captions if possible
+
+---
+
+## 🔗 Submission Checklist:
+- [ ] Video recorded (3 minutes)
+- [ ] Video uploaded to platform
+- [ ] Public/unlisted link obtained
+- [ ] Link added above
+- [ ] Video tested (playable without login)
+- [ ] Link added to README.md
+- [ ] Link submitted with project
+
+---
+
+**Status:** 📝 Recording Pending
+**Last Updated:** December 9, 2025

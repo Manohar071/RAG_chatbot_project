@@ -1,0 +1,32 @@
+# Environment
+.env
+venv/
+env/
+
+# ChromaDB
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tests
+tests/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+temp/
+.env
