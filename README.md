@@ -30,8 +30,8 @@ This chatbot retrieves information from a custom knowledge base and generates ac
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd rag_chatbot_working
+git clone https://github.com/Manohar071/RAG_chatbot_project.git
+cd RAG_chatbot_project
 ```
 
 2. Install dependencies:

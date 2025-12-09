@@ -3,6 +3,7 @@
 **Project:** RAG Chatbot using ChromaDB + Python
 **Team Size:** 2 Students
 **Duration:** 3 minutes
+**GitHub Repository:** https://github.com/Manohar071/RAG_chatbot_project
 
 ---
 
