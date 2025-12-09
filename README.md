@@ -2,6 +2,10 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers domain-specific questions using ChromaDB vector database and Google's Gemini LLM.
 
+## 🎬 Demo Video
+
+**Watch the 3-minute project demonstration:** [https://www.loom.com/share/3053c3df52fd407a81f2fc17902365b2](https://www.loom.com/share/3053c3df52fd407a81f2fc17902365b2)
+
 ## 🎯 Project Overview
 
 This chatbot retrieves information from a custom knowledge base and generates accurate answers with source attribution. It demonstrates practical implementation of:

@@ -8,7 +8,7 @@
 ---
 
 ## 📹 Demo Video URL
-[To be added after recording]
+https://www.loom.com/share/3053c3df52fd407a81f2fc17902365b2
 
 ---
 
@@ -64,15 +64,15 @@
 ---
 
 ## 🔗 Submission Checklist:
-- [ ] Video recorded (3 minutes)
-- [ ] Video uploaded to platform
-- [ ] Public/unlisted link obtained
-- [ ] Link added above
-- [ ] Video tested (playable without login)
-- [ ] Link added to README.md
+- [x] Video recorded (3 minutes)
+- [x] Video uploaded to platform
+- [x] Public/unlisted link obtained
+- [x] Link added above
+- [x] Video tested (playable without login)
+- [x] Link added to README.md
 - [ ] Link submitted with project
 
 ---
 
-**Status:** 📝 Recording Pending
+**Status:** ✅ Recording Complete
 **Last Updated:** December 9, 2025

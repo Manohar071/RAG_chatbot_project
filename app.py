@@ -189,8 +189,13 @@ def sidebar_content():
         # Reset collection
         if st.button("🗑️ Reset Collection", type="secondary"):
             if st.session_state.ingestion:
-                st.session_state.ingestion.reset_collection()
-                st.session_state.collection_stats = st.session_state.ingestion.get_collection_stats()
+                with st.spinner("Resetting collection..."):
+                    st.session_state.ingestion.reset_collection()
+                    # Reinitialize all components with new collection
+                    st.session_state.ingestion = DocumentIngestion()
+                    st.session_state.retriever = RAGRetriever()
+                    st.session_state.generator = ResponseGenerator()
+                    st.session_state.collection_stats = st.session_state.ingestion.get_collection_stats()
                 st.success("✅ Collection reset successfully")
                 st.rerun()
         
@@ -223,6 +228,23 @@ def sidebar_content():
         
         Upload documents and ask questions!
         """)
+
+
+def save_uploaded_file(uploaded_file):
+    """Save uploaded file to data/documents directory"""
+    import os
+    from pathlib import Path
+    
+    # Ensure directory exists
+    upload_dir = Path("./data/documents")
+    upload_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Save file
+    file_path = upload_dir / uploaded_file.name
+    with open(file_path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+    
+    return str(file_path)
 
 
 def process_uploaded_files(uploaded_files):

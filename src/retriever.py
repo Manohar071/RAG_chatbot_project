@@ -201,7 +201,15 @@ class RAGRetriever:
                 "message": "Collection not found. Please process documents first."
             }
         
-        count = self.collection.count()
+        try:
+            count = self.collection.count()
+        except (StopIteration, Exception) as e:
+            # Collection may have been deleted/reset
+            return {
+                "status": "error",
+                "document_count": 0,
+                "message": "Collection needs reinitialization. Please refresh the page."
+            }
         
         return {
             "status": "ready" if count > 0 else "empty",
